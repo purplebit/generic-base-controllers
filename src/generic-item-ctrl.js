@@ -41,7 +41,7 @@ function genericItemCtrl(Restangular, $scope) {
     };
 
     // Initialize data for a controller with a given ID. Use when you explicitly want restangular to know of an ID.
-    // Example: initDataWithID('story', 2) will init 'task/2' (as a single item)
+    // Example: initDataWithID('task', 2) will init 'task/2' (as a single item)
     // Optional: itemKeyName to change $scope["item"] to $scope["whatever"]
     // TODO: Refactor and merge with previous function
     $scope.initDataWithID = function(resourceEndpointName, id, itemKeyName) {
